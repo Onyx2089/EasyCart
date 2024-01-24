@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+
+    background-image: url('../../public/png/santa.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+} */
+
+
+.custom-toast {
+  color: #fff; /* Couleur du texte */
+  background-color: #007bff; /* Couleur d'arrière-plan */
+  font-size: 1.2rem; /* Taille de la police */
+  padding: 20px; /* Agrandir l'espacement interne */
+  border-radius: 10px; /* Bordures arrondies */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Ombre portée pour un effet en relief */
+  text-align: center; /* Texte centré */
+  font-weight: bold; /* Texte en gras */
+  border: 2px solid #0056b3; /* Bordure personnalisée */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(to right, #ff5f6d, #ffc371); /* Barre de progression avec un dégradé */
+}
+
+
+.profile-content {
+  display: flex;
+  padding: 40px;
+}
+
+.user-info {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; 
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+
+.info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap; 
+}
+
+.info-title {
+  font-weight: bold;
+  margin-right: 10px;
+  min-width: 100px; /* Largeur minimale pour les titres */
+  white-space: nowrap; /* Empêche les titres de passer à la ligne */
+}
+
+.info-value {
+  flex-grow: 1;
+  word-break: break-word; /* Permet aux valeurs longues de passer à la ligne correctement */
+}
+
+.user-actions .btn-edit, .btn-delete {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn-edit {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #007bff;
+  color: white;
+}
+
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

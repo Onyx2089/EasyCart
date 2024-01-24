@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image : tenalurnotib/elenbe:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
