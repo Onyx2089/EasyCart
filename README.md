@@ -79,4 +79,4 @@ Next.js est bien plus qu'un simple framework React. Il révolutionne le dévelop
 npm run dev
 ```
 
-Ouvrez votre navigateur préféré et visitez http://localhost:3000 pour plonger dans l'expérience EasyCart. Profitez de votre shopping en ligne ! 🛍️
+Ouvrez votre navigateur et visitez http://localhost:3000 pour plonger dans l'expérience EasyCart. Profitez de votre shopping en ligne ! 🛍️
