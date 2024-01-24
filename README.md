@@ -1,12 +1,14 @@
 # EasyCart - Votre Plateforme de Commerce Électronique
 
+( Projet étudiant )
+
 Bienvenue sur EasyCart, une plateforme de commerce électronique conçue avec passion et technologie. Notre application offre une expérience d'achat fluide et sécurisée pour les utilisateurs, avec une architecture robuste utilisant Python (FastAPI) pour la partie backend/API et Next.js pour le frontend.
 
 ## Initialisation du Projet
 
 ### Frontend
 
-Pour démarrer le frontend, exécutez la commande suivante dans le répertoire `front/` :
+Pour initialiser le frontend, exécutez la commande suivante dans le répertoire `front/` :
 
 ```bash
 npm install
